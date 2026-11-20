@@ -1,0 +1,5 @@
+package engine
+
+Ennemy :: struct {
+
+};

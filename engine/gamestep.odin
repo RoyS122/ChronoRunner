@@ -1,4 +1,4 @@
-package gamestep
+package engine
 
 GameStep :: proc (gs: ^GlobalGameState) {
 

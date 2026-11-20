@@ -9,7 +9,9 @@ GlobalGameState :: struct {
 		Options,
 		Running,
 		GameOver
-	}
+	},
+	dt: f32,
+	window_size: [2]i32
 }
 
 Save :: proc (gs: ^GlobalGameState) {
